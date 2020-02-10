@@ -1,6 +1,33 @@
+/*Главная страница*/
+h2 {
+color: rgb(0,128,0);
+text-align: center;
+word-spacing:5px;
+letter-spacing:1px;
+font-size:27px;
+}
+
+input {
+font-size:15px;
+padding: 10px;
+border-color:gray;
+ box-shadow: 0 0 2px rgba(0,0,0,0.5);
+ width:15%;
+ outline:none;
+
+}
+
+p {
+font-size:20px;
+color:#363434;
+letter-spacing:0.8px;
+
+}
+
 #form_start {
     text-align: center;
-    margin-top: 400px;
+    margin-top: 80px;
+	
 }
 
 button {
@@ -11,6 +38,11 @@ button {
     box-shadow: 0 -3px rgb(53,167,110) inset;
     padding: .8em 1em calc(.8em + 3px);
     transition: 0.2s;
+	border-style:none;
+    margin-top:20px;
+	letter-spacing:1px;
+	width: 16.9%;
+	
 }
 
 button:hover {
@@ -20,4 +52,22 @@ button:hover {
 button:active {
   background: rgb(33,147,90);
   box-shadow: 0 3px rgb(33,147,90) inset;
+}
+
+/*Сама игра*/
+#row1{
+display:inline-block;
+}
+
+div{
+text-align:center;
+}
+
+.play{
+font-size:2px;
+padding: 8px;
+border-color:gray;
+ box-shadow: 0 0 2px rgba(0,0,0,0.5);
+ width:1%;
+ outline:none;
 }
