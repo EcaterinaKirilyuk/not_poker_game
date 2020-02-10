@@ -9,3 +9,5 @@ require_once BASE_DIR.DS."Cards".DS."Diamond.php";
 require_once BASE_DIR.DS."Cards".DS."Heart.php";
 require_once BASE_DIR.DS."Cards".DS."Spade.php";
 require_once BASE_DIR.DS."Cards".DS."CardsController.php";
+
+require_once BASE_DIR.DS."DataBase".DS."DbController.php";

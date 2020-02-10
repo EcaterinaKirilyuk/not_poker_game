@@ -24,6 +24,12 @@ letter-spacing:0.8px;
 
 }
 
+.col-3 {
+    display: inline-block;
+    width: 24%;
+    margin: 0px;
+}
+
 #form_start {
     text-align: center;
     margin-top: 80px;
